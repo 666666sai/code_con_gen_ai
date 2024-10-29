@@ -14,7 +14,7 @@ from langchain.prompts import PromptTemplate
 load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
-pc = Pinecone(api_key='355417cf-37b8-4569-bfe1-7e6c733b3205')
+pc = Pinecone(api_key='-------------------------------')
 index_name = "assembler-index"
 
 if index_name not in pc.list_indexes().names():
